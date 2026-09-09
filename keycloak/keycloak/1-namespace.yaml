@@ -5,6 +5,7 @@ metadata:
   name: demo-project
   labels:
     kubernetes.io/metadata.name: demo-project
+    argocd.argoproj.io/managed-by: openshift-gitops
   annotations:
     openshift.io/display-name: RHDH demo project
 ---
